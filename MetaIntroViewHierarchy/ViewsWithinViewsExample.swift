@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct ViewsWithinViewsExample: View {
+    
+    //
+    @State var showLogo = true
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            LittleLemonLogo(showLogo: $showLogo)
+           
+        }
     }
 }
 

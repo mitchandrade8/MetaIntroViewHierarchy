@@ -8,13 +8,27 @@
 import SwiftUI
 
 struct LittleLemonLogo: View {
+    
+    @Binding var showLogo: Bool
+    
     var body: some View {
-        Image(systemName: "water.waves")
+        VStack {
+            if showLogo {
+                Image(systemName: "water.waves")
+            }
+            
+            Button(action: {
+                showLogo.toggle()
+            }, label: {
+                Text("Toggle Logo Visibility")
+            })
+        }
     }
 }
 
-struct LittleLemonLogo_Previews: PreviewProvider {
-    static var previews: some View {
-        LittleLemonLogo()
-    }
-}
+//struct LittleLemonLogo_Previews: PreviewProvider {
+//    static var previews: some View {
+//        LittleLemonLogo()
+//            .contrast(true)
+//    }
+//}
