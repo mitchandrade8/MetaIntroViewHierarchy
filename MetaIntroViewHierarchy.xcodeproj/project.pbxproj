@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74270D542AA62ABD00B5A2B0 /* ViewsWithinViewsExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D532AA62ABD00B5A2B0 /* ViewsWithinViewsExample.swift */; };
+		74270D562AA62BFB00B5A2B0 /* LittleLemonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74270D552AA62BFB00B5A2B0 /* LittleLemonLogo.swift */; };
 		748869552AA549FD00F45F77 /* MetaIntroViewHierarchyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748869542AA549FD00F45F77 /* MetaIntroViewHierarchyApp.swift */; };
 		748869572AA549FD00F45F77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748869562AA549FD00F45F77 /* ContentView.swift */; };
 		748869592AA549FF00F45F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748869582AA549FF00F45F77 /* Assets.xcassets */; };
 		7488695C2AA549FF00F45F77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7488695B2AA549FF00F45F77 /* Preview Assets.xcassets */; };
+		748869632AA54B2000F45F77 /* IntroContainerViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748869622AA54B2000F45F77 /* IntroContainerViews.swift */; };
+		748869652AA54B3300F45F77 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748869642AA54B3300F45F77 /* Notes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74270D532AA62ABD00B5A2B0 /* ViewsWithinViewsExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsWithinViewsExample.swift; sourceTree = "<group>"; };
+		74270D552AA62BFB00B5A2B0 /* LittleLemonLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonLogo.swift; sourceTree = "<group>"; };
 		748869512AA549FD00F45F77 /* MetaIntroViewHierarchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaIntroViewHierarchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748869542AA549FD00F45F77 /* MetaIntroViewHierarchyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaIntroViewHierarchyApp.swift; sourceTree = "<group>"; };
 		748869562AA549FD00F45F77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		748869582AA549FF00F45F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7488695B2AA549FF00F45F77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		748869622AA54B2000F45F77 /* IntroContainerViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroContainerViews.swift; sourceTree = "<group>"; };
+		748869642AA54B3300F45F77 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				748869542AA549FD00F45F77 /* MetaIntroViewHierarchyApp.swift */,
 				748869562AA549FD00F45F77 /* ContentView.swift */,
+				748869622AA54B2000F45F77 /* IntroContainerViews.swift */,
+				74270D532AA62ABD00B5A2B0 /* ViewsWithinViewsExample.swift */,
+				74270D552AA62BFB00B5A2B0 /* LittleLemonLogo.swift */,
+				748869642AA54B3300F45F77 /* Notes.swift */,
 				748869582AA549FF00F45F77 /* Assets.xcassets */,
 				7488695A2AA549FF00F45F77 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74270D542AA62ABD00B5A2B0 /* ViewsWithinViewsExample.swift in Sources */,
 				748869572AA549FD00F45F77 /* ContentView.swift in Sources */,
+				748869632AA54B2000F45F77 /* IntroContainerViews.swift in Sources */,
 				748869552AA549FD00F45F77 /* MetaIntroViewHierarchyApp.swift in Sources */,
+				74270D562AA62BFB00B5A2B0 /* LittleLemonLogo.swift in Sources */,
+				748869652AA54B3300F45F77 /* Notes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
